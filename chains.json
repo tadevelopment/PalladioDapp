@@ -519,6 +519,14 @@
       "0xad8fbd2663e4ecb70d9ade7dba34763df1e78c7419bfcd942cfe6a69adf95d76": {
         "name": "SampleToken",
         "address": "0x74182c8c165aa4a4cfe66e185bd1ff8ce9f82541"
+      },
+      "0xbb58897a40d976c4da8caf575ff601487781086f5c35a697aaa75a5403037dc6": {
+        "name": "CBDContractFactory",
+        "address": "0xb77fcdf9e3454b9ecede3674efe415fe13fd7673"
+      },
+      "0x1c69063c57efc62342e1ba9c62b022d28b4ec59319a60fcbac2911c8c52d8f79": {
+        "name": "SampleToken",
+        "address": "0x093a0b12468e70039821d6f5a1104ef2cf0fb997"
       }
     },
     "name": "development"
