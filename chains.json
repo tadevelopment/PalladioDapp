@@ -531,6 +531,18 @@
       "0x74ba30aa2147c33d61de8f29e1745e23b5c23a5860d48ccdc9cbeb981eccd198": {
         "name": "BasicToken",
         "address": "0x6a4ec900a6c11ce521ad682dce4c14a9d54d1572"
+      },
+      "0x344431509d95ae9a575219ddaf2ce6ceaa50c9bb3e943a25e16200f3e43f02af": {
+        "name": "PL1Token",
+        "address": "0xaf4ca2eecdb69aaf9c15c5f08b43888c0b07aa47"
+      },
+      "0xb6194e027109bcf4b7481325fac5f5fc799a0960b42d3c788cdaa71783aff9a7": {
+        "name": "CBDContractFactory",
+        "address": "0x288dd8f5926da33ed3e5f41c9a4c5f40cfaa4b9c"
+      },
+      "0xc42c7d3ba0902337fe92758f560988f02a4c2d3f05117dc9cedbd9cfbf4a93d0": {
+        "name": "BasicToken",
+        "address": "0x7c908201df47749642f4ad295d84bf217538c349"
       }
     },
     "name": "testnet"
