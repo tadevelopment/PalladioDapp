@@ -45,8 +45,8 @@
 
       "CBDContractFactory": {
       },
-      "PL1Token": {
-        "gas": 2100000
+      "Palladiosoft1Token": {
+        "gas": 1500000
       }
     }
   }
