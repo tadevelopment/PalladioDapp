@@ -36,6 +36,10 @@
         "deploy": false
       },
 
+      "BasicToken": {
+        "deploy": false
+      },
+
       "SafeMath": {
         "deploy": false
       },

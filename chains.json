@@ -543,6 +543,14 @@
       "0xc42c7d3ba0902337fe92758f560988f02a4c2d3f05117dc9cedbd9cfbf4a93d0": {
         "name": "BasicToken",
         "address": "0x7c908201df47749642f4ad295d84bf217538c349"
+      },
+      "0xfbe5c2ab93f45259c3ac84deb91b855f519feeb822a8c45ea61686a0b1226470": {
+        "name": "CBDContractFactory",
+        "address": "0x05a47cbbf0b7e9e1dcaba0a18cb61e8a0526d91f"
+      },
+      "0x3130166e733165fa6b4ce3e5df9071ba1e20265904675872ebf7c76631d88cb1": {
+        "name": "Palladiosoft1Token",
+        "address": "0x57301eebc996e0389f7aadd6a2e53acc18bf5264"
       }
     },
     "name": "testnet"
