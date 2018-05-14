@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <a href='/'>Palladio Home</a><br><br><br>  
-  <script src="js/lib/embark.js"></script>
+
+<head>
+  <link rel="stylesheet" href="css/app.css">
+
+  <script src="js/lib/embark2.js"></script>
   <script src="js/lib/jquery.js"></script>
   <script src="js/lib/constants.js"></script>
   <script src="js/addArchitect.js"></script>
-  </head>
-  <center>
-  <body class='container'>
-   <big><big><big><b>Palladio Administration </b></big></big></big><br>
-    <br><br><br>
-   
-    Management Account: <select id="palladioAccount" style="width: 300px"></select><br><br>
-    Architect Account: <input id='architectAccount' placeholder='0x12345...' size='50'><br><br>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="top">
+    <div class="bar red card left-align large">
+      <a class="bar-item button hide-medium hide-large right padding-large hover-white large red" href="javascript:void(0);" onclick="myFunction()"
+        title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#" class="bar-item button padding-large white">Home</a>
+      <a href="getAllCBDs.html" class="bar-item button hide-small padding-large hover-white">Browse Contracts</a>
+      <a href="create.html" class="bar-item button hide-small padding-large hover-white">Create a Contract</a>
+      <a href="addArchitect.html" class="bar-item button hide-small padding-large hover-white">Admin</a>
+      <a href="http://palladio.io/how-it-works.html" class="bar-item button hide-small padding-large hover-white">About us</a>
+    </div>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+      <a href="getAllCBDs.html" class="bar-item button padding-large">Browse Contracts</a>
+      <a href="create.html" class="bar-item button padding-large">Create a Contract</a>
+      <a href="addArchitect.html" class="bar-item button padding-large">Admin</a>
+      <a href="http://palladio.io/how-it-works.html" class="bar-item button padding-large">About us</a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="contentBorderShadow" style="padding-left: 50px">
+    <big>
+      <big>
+        <big>
+          <b>Palladio Administration </b>
+        </big>
+      </big>
+    </big>
     <br>
     <br>
-<center> <input type='submit' id='onAddArchitectBtn' value='Add Account as Architect' onclick="onAddArchitect()"> </center>
+    <br>
+    <br> Management Account:
+    <select id="palladioAccount" style="width: 300px"></select>
+    <br>
+    <br> Architect Account:
+    <input id='architectAccount' placeholder='0x12345...' size='50'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+      <input type='submit' id='onAddArchitectBtn' value='Add Account as Architect' onclick="onAddArchitect()"> </center>
     <div id='outputDiv'></div>
-    Set Token Address: <input id='tokenAddress' placeholder='0x12345...' size='50'><br><br>
-    <center> <input type='submit' id='onSetTokenBtn' value='Set Token Address' onclick="onSetTokenAddress()"> </center>
+    Set Token Address:
+    <input id='tokenAddress' placeholder='0x12345...' size='50'>
+    <br>
+    <br>
+    <center>
+      <input type='submit' id='onSetTokenBtn' value='Set Token Address' onclick="onSetTokenAddress()"> </center>
     <div id='tokenOutputDiv'></div>
-  </center>
-  </body>
+  </div>
+</body>
+
 </html>
-
-
